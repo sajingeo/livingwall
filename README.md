@@ -19,6 +19,11 @@ scons
 cd python
 sudo python setup.py install
 
+---- enable on boot ----
+
+sudo systemctl start wall.service
+sudo systemctl stop wall.service
+sudo systemctl enable wall.service
 ```
 
 # Things to do

@@ -36,5 +36,10 @@ Disable audio (bcm28x)
 
 ## Credits:
 bare conductive 
-Jgarff for the lib
+Jgarff for the lib 
+
+### Note:
+Raspberry pi has different pin numbering internally. The jxx number printed on the bare conductive pi-cap board are the phicial pin numbers on the pi.
+
+Picap also calibrates on boot for the surface it mounted on, after connecting the pads make sure you reboot the pi.
 

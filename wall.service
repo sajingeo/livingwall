@@ -1,0 +1,10 @@
+[Unit]
+Description=Living wall
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/livingwall.py
+
+[Install]
+WantedBy=multi-user.target

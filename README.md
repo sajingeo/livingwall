@@ -20,10 +20,14 @@ cd python
 sudo python setup.py install
 
 ---- enable on boot ----
+sudo cp  wall.service /lib/systemd/system/wall.service
 
-sudo systemctl start wall.service
-sudo systemctl stop wall.service
+sudo systemctl daemon-reload
 sudo systemctl enable wall.service
+
+ * sudo systemctl start wall.service
+ * sudo systemctl stop wall.service
+
 ```
 
 # Things to do
